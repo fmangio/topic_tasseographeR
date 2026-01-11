@@ -13,10 +13,10 @@ Interpreting topic‑model outputs is often compared to *tasseography*—the art
 The software consists of two complementary Shiny modules:
 
 * **Topic Content TasseographeR**
-  [https://shinyapps.io/topic_content_score/](https://shinyapps.io/topic_content_score/)
+  [https://fmangio.shinyapps.io/topic_content_score/]
 
 * **Topic Function TasseographeR**
-  [https://shinyapps.io/topic_function_score/](https://shinyapps.io/topic_function_score/)
+  [https://fmangio.shinyapps.io/topic_function_score/]
 
 Both modules are web‑based, require no additional model estimation, and integrate seamlessly with existing topic‑modeling workflows in R, Python, or other environments.
 
