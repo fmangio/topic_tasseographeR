@@ -22,7 +22,7 @@ Both modules are web‑based, require no additional model estimation, and integr
 
 ---
 
-## Conceptual framework
+## Overview of the protocol
 
 ![Figure 1 – Topic tasseographeR workflow](figures/figure1_workflow.png)
 
