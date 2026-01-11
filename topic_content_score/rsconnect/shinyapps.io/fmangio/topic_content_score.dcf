@@ -1,0 +1,10 @@
+name: topic_content_score
+title:
+username: fmangio
+account: fmangio
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13677699
+bundleId: 9620514
+url: https://fmangio.shinyapps.io/topic_content_score/
+version: 1
