@@ -92,7 +92,7 @@ Topic tasseographeR supports both deductive and abductive approaches to topic in
 **Example 1: Topic labeling and validation of polyblogs2008 dataset**: after estimating the topic model solution available in the replication script "..."
 
 **Judicial processes (Topic 10).**  
-Topic 10 is hypothesized to exhibit high levels of legal contestation language.
+After topic rendering, Topic 10 (labelled as "judicial processes") is hypothesized to exhibit high levels of legal contestation language. To triangulate this interpretation:
 1. Open the Topic Content TasseographeR app:  
    https://fmangio.shinyapps.io/topic_content_score/
 2. Upload `output/td_beta.csv`
@@ -104,7 +104,7 @@ Topic 10 displays the highest topic content score, confirming the hypothesis.
 ---
 
 **Religion (Topic 20).**  
-Topic 20 is hypothesized to reflect religious language.
+After topic rendering, Topic 20 (labelled as "religion") is hypothesized to reflect religious language. To triangulate this interpretation:
 Repeat the steps above using the *Relig* dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
 Topic 20 exhibits the highest topic content score.
 ![Figure 4 – Topic Content TasseographeR- topic 20](figures/figure4_ui.png)
@@ -114,8 +114,8 @@ Topic 20 exhibits the highest topic content score.
 ### Topic function validation
 
 **Elections (Topic 5).**  
-Topic 5 is hypothesized to employ inclusive pronouns associated with
-“us-versus-them” electoral rhetoric.
+After topic rendering, Topic 5 (labelled as "elections") is hypothesized to employ inclusive pronouns associated with
+“us-versus-them” electoral rhetoric. To check for the presence of first person plural pronouns, usually removed during pre-processing, we can:
 
 1. Open the Topic Function TasseographeR app:  
    https://fmangio.shinyapps.io/topic_function_score/
