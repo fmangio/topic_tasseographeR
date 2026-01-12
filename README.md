@@ -161,7 +161,6 @@ The application also enables post‑hoc **aspect‑based sentiment analysis**. A
 This repository is fully reproducible:
 
 ```r
-#install.packages("renv")
 #install.packages("ggplot2")
 #install.packages("dplyr")
 #install.packages("shiny")
@@ -172,9 +171,6 @@ This repository is fully reproducible:
 devtools::install_github("kbenoit/quanteda.dictionaries") 
 remotes::install_github("quanteda/quanteda.sentiment")
 remotes::install_github("quanteda/quanteda.dictionaries")
-
-
-renv::restore()
 
 shiny::runApp("topic_content_score")
 shiny::runApp("topic_function_score")
