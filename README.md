@@ -78,6 +78,7 @@ This flexibility supports both deductive validation using established lexical re
 ![Figure 2 – Topic Content TasseographeR user interface](figures/figure2_ui.png)
 
 **Figure 2 – Topic Content TasseographeR user interface.**
+
 The interface is organized into three functional panels. The **upper panel** allows users to upload the topic–word distribution (β). The **mid panel** supports dictionary selection, either by uploading a custom dictionary or defining lemmas directly within the interface. The **lower panel** provides controls to download topic-level scores and visualizations. The main panel displays an interactive bar chart summarizing topic content scores across topics.
 
 * Interactive bar charts displaying topic‑level scores
@@ -102,14 +103,18 @@ After qualitative inspection, Topic 10 (labelled as "judicial processes") is hyp
 3. Select *Uploaded dictionary*
 4. Upload the *Litigious* dictionary [https://drive.google.com/file/d/1cfg_w3USlRFS97wo7XQmYnuzhpmzboAY/view]
 5. Inspect or download the resulting topic-level score plot
+   
 Topic 10 displays the highest topic content score, confirming the hypothesis.
+
 ![Figure 3 – Topic Content TasseographeR- topic 10](figures/figure3_ui.png)
 ---
 
 **Religion (Topic 20).**  
 After qualitative inspection, Topic 20 (labelled as "religion") is hypothesized to reflect religious language. To triangulate this interpretation:
 Repeat the steps above using the *Relig* dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
+
 Topic 20 exhibits the highest topic content score.
+
 ![Figure 4 – Topic Content TasseographeR- topic 20](figures/figure4_ui.png)
 
 ---
@@ -126,7 +131,9 @@ After qualitative inspection, Topic 5 (labelled as "elections") is hypothesized 
 3. Select *User-defined dictionary*
 4. Enter the following lemmas: we,us,our,ours, ourselves from the "Our" dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
 5. Inspect or download the resulting topic-level score plot
+   
 Topic 5 exhibits the highest topic function score, supporting the label.
+
 ![Figure 5 – Topic Content TasseographeR- topic 5](figures/figure5_ui.png)
 
 ### Aspect‑based sentiment analysis
@@ -141,7 +148,9 @@ The application also enables post‑hoc **aspect‑based sentiment analysis**. A
 3. Select *Uploaded dictionary*
 4. Iteratively upload the *EmoLex* dictionaries [https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm]
 5. Inspect or download the resulting topic-level score plot
-   Facilities (e.g., “gym”, “bathroom”, topic 22) and the convenient location of the hotel in the Michigan area (topic 40) recorded the highest score for positive sentiment and joy. Conversely, lunch-related experiences (e.g., breakfast and restaurant services- topic 22) emerged as a polarized aspect, exhibiting relatively high scores for both positive and negative sentiment, as well as for the discrete emotions of joy and anger.
+   
+   Facilities (e.g., “gym”, “bathroom”- topic 22) and the convenient location of the hotel in the Michigan area (topic 40) recorded the highest score for positive sentiment and joy. Conversely, lunch-related experiences (e.g., breakfast and restaurant services- topic 22) emerged as a polarized aspect, exhibiting relatively high scores for both positive and negative sentiment, as well as for the discrete emotions of joy and anger.
+   
 ![Figure 6 – Topic Content TasseographeR- ABSA](figures/figure6_ui.png)
 
 
