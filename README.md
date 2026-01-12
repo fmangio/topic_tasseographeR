@@ -176,7 +176,7 @@ The live web applications remain available at the links above.
 
 If you use Topic tasseographeR, please cite:
 
-> Mangiò, F. (2025). *Topic tasseographeR: An interactive R‑Shiny application to interpret and validate topic models*. University of Bergamo.
+> Mangiò, F. (2026). *Topic tasseographeR: An interactive R‑Shiny application to interpret and validate topic models*. University of Bergamo.
 
 ---
 
