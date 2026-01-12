@@ -100,14 +100,14 @@ Topic 10 is hypothesized to exhibit high levels of legal contestation language.
 4. Upload the *Litigious* dictionary [https://drive.google.com/file/d/1cfg_w3USlRFS97wo7XQmYnuzhpmzboAY/view]
 5. Inspect or download the resulting topic-level score plot
 Topic 10 displays the highest topic content score, confirming the hypothesis.
-(figures/figure3_ui.png)
+![Figure 3 – Topic Content TasseographeR- topic 10](figures/figure3_ui.png)
 ---
 
 **Religion (Topic 20).**  
 Topic 20 is hypothesized to reflect religious language.
 Repeat the steps above using the *Relig* dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
 Topic 20 exhibits the highest topic content score.
-(figures/figure4_ui.png)
+![Figure 4 – Topic Content TasseographeR- topic 20](figures/figure4_ui.png)
 
 ---
 
@@ -124,7 +124,7 @@ Topic 5 is hypothesized to employ inclusive pronouns associated with
 4. Enter the following lemmas: we,us,our,ours, ourselves from the "Our" dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
 5. Inspect or download the resulting topic-level score plot
 Topic 5 exhibits the highest topic function score, supporting the label.
-(figures/figure5_ui.png)
+![Figure 5 – Topic Content TasseographeR- topic 5](figures/figure5_ui.png)
 
 ### Aspect‑based sentiment analysis
 
@@ -139,7 +139,7 @@ The application also enables post‑hoc **aspect‑based sentiment analysis**. A
 4. Iteratively upload the *EmoLex* dictionaries [https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm]
 5. Inspect or download the resulting topic-level score plot
    Facilities (e.g., “gym”, “bathroom”, topic 22) and the convenient location of the hotel in the Michigan area (topic 40) recorded the highest score for positive sentiment and joy. Conversely, lunch-related experiences (e.g., breakfast and restaurant services- topic 22) emerged as a polarized aspect, exhibiting relatively high scores for both positive and negative sentiment, as well as for the discrete emotions of joy and anger.
-   (figures/figure6_ui.png)
+![Figure 6 – Topic Content TasseographeR- ABSA](figures/figure6_ui.png)
 
 
 ---
