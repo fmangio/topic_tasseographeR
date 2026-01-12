@@ -158,15 +158,18 @@ The application also enables post‑hoc **aspect‑based sentiment analysis**. A
 
 ## Reproducibility and local execution
 
-This repository is fully reproducible using `renv`.
+This repository is fully reproducible:
 
 ```r
-install.packages("renv")
-install.packages("ggplot2")
-install.packages("dplyr")
-install.packages("shiny")
-install.packages("shinythemes")
-install.packages("quanteda")
+#install.packages("renv")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+#install.packages("shiny")
+#install.packages("shinythemes")
+#install.packages("quanteda")
+#install.packages("remotes")
+#install.packages("devtools")
+devtools::install_github("kbenoit/quanteda.dictionaries") 
 remotes::install_github("quanteda/quanteda.sentiment")
 remotes::install_github("quanteda/quanteda.dictionaries")
 
