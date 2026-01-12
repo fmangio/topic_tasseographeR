@@ -2,7 +2,10 @@
 
 **Topic tasseographeR** is an interactive, model‑agnostic R Shiny application designed to support the **interpretation and validation of topic models** through post‑hoc, dictionary‑based scoring. It provides researchers with transparent, reproducible metrics that complement human‑ and machine‑in‑the‑loop approaches to topic interpretation and validation.
 
-Illustrative examples of this approach can be found in: Dehler-Holland, Okoh & Keles (2022) [https://doi.org/10.1016/j.techfore.2021.121354], Mangiò, Pedeliento, Andreini & Zarantonello (2024) [https://doi.org/10.1057/s41262-023-00347-4], Murtas, Mangiò, Pedeliento & Manoli (2025) [https://doi.org/10.1080/16184742.2024.2424299].
+Illustrative examples of this approach can be found in: 
+- Dehler-Holland, Okoh & Keles (2022) [https://doi.org/10.1016/j.techfore.2021.121354], 
+- Mangiò, Pedeliento, Andreini & Zarantonello (2024) [https://doi.org/10.1057/s41262-023-00347-4], 
+- Murtas, Mangiò, Pedeliento & Manoli (2025) [https://doi.org/10.1080/16184742.2024.2424299].
 
 ---
 
