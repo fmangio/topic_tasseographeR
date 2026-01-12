@@ -89,7 +89,7 @@ The interface is organized into three functional panels. The **upper panel** all
 
 Topic tasseographeR supports both deductive and abductive approaches to topic interpretation. Researchers can test hypotheses about topic semantics using validated dictionaries and assess whether topic labels are empirically supported by dictionary scores.
 
-**Example 1: Topic labeling and validation of polyblogs2008 dataset**: after estimating the topic model solution available in the replication script "..."
+**Example 1: Topic labeling and validation of polyblogs2008 dataset**: after estimating the topic model solution available in the replication script "*case1_topic_validation*" in the Example folder:
 
 **Judicial processes (Topic 10).**  
 After topic rendering, Topic 10 (labelled as "judicial processes") is hypothesized to exhibit high levels of legal contestation language. To triangulate this interpretation:
@@ -130,7 +130,7 @@ Topic 5 exhibits the highest topic function score, supporting the label.
 
 The application also enables post‑hoc **aspect‑based sentiment analysis**. After estimating topics, researchers can apply multiple sentiment or emotion dictionaries sequentially—without altering the original topic solution—to assess affective dimensions associated with specific topics.
 
-**Example 2: Aspect Based Sentiment Analysis of Deceptive Opinion Spam dataset**: after estimating the topic model solution available in the replication script "..."
+**Example 2: Aspect Based Sentiment Analysis of Deceptive Opinion Spam dataset**: after estimating the topic model solution available in the replication script "*case2_aspect_based_sa*" in the Example folder:
 
 1. Open the Topic Content TasseographeR app:  
    https://fmangio.shinyapps.io/topic_content_score/
