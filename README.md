@@ -162,6 +162,15 @@ This repository is fully reproducible using `renv`.
 
 ```r
 install.packages("renv")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("shiny")
+install.packages("shinythemes")
+install.packages("quanteda")
+remotes::install_github("quanteda/quanteda.sentiment")
+remotes::install_github("quanteda/quanteda.dictionaries")
+
+
 renv::restore()
 
 shiny::runApp("topic_content_score")
