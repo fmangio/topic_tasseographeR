@@ -89,9 +89,58 @@ The interface is organized into three functional panels. The **upper panel** all
 
 Topic tasseographeR supports both deductive and abductive approaches to topic interpretation. Researchers can test hypotheses about topic semantics using validated dictionaries and assess whether topic labels are empirically supported by dictionary scores.
 
+**Example 1: Topic labeling and validation of polyblogs2008 dataset**: after estimating the topic model solution available in the replication script "..."
+
+**Judicial processes (Topic 10).**  
+Topic 10 is hypothesized to exhibit high levels of legal contestation language.
+1. Open the Topic Content TasseographeR app:  
+   https://fmangio.shinyapps.io/topic_content_score/
+2. Upload `output/td_beta.csv`
+3. Select *Uploaded dictionary*
+4. Upload the *Litigious* dictionary [https://drive.google.com/file/d/1cfg_w3USlRFS97wo7XQmYnuzhpmzboAY/view]
+5. Inspect or download the resulting topic-level score plot
+Topic 10 displays the highest topic content score, confirming the hypothesis.
+(figures/figure3_ui.png)
+---
+
+**Religion (Topic 20).**  
+Topic 20 is hypothesized to reflect religious language.
+Repeat the steps above using the *Relig* dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
+Topic 20 exhibits the highest topic content score.
+(figures/figure4_ui.png)
+
+---
+
+### Topic function validation
+
+**Elections (Topic 5).**  
+Topic 5 is hypothesized to employ inclusive pronouns associated with
+“us-versus-them” electoral rhetoric.
+
+1. Open the Topic Function TasseographeR app:  
+   https://fmangio.shinyapps.io/topic_function_score/
+2. Upload `output/ds.csv`
+3. Select *User-defined dictionary*
+4. Enter the following lemmas: we,us,our,ours, ourselves from the "Our" dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
+5. Inspect or download the resulting topic-level score plot
+Topic 5 exhibits the highest topic function score, supporting the label.
+(figures/figure5_ui.png)
+
 ### Aspect‑based sentiment analysis
 
 The application also enables post‑hoc **aspect‑based sentiment analysis**. After estimating topics, researchers can apply multiple sentiment or emotion dictionaries sequentially—without altering the original topic solution—to assess affective dimensions associated with specific topics.
+
+**Example 2: Aspect Based Sentiment Analysis of Deceptive Opinion Spam dataset**: after estimating the topic model solution available in the replication script "..."
+
+1. Open the Topic Content TasseographeR app:  
+   https://fmangio.shinyapps.io/topic_content_score/
+2. Upload `output/td_beta.csv`
+3. Select *Uploaded dictionary*
+4. Iteratively upload the *EmoLex* dictionaries [https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm]
+5. Inspect or download the resulting topic-level score plot
+   Facilities (e.g., “gym”, “bathroom”, topic 22) and the convenient location of the hotel in the Michigan area (topic 40) recorded the highest score for positive sentiment and joy. Conversely, lunch-related experiences (e.g., breakfast and restaurant services- topic 22) emerged as a polarized aspect, exhibiting relatively high scores for both positive and negative sentiment, as well as for the discrete emotions of joy and anger.
+   (figures/figure6_ui.png)
+
 
 ---
 
