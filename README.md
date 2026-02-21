@@ -73,6 +73,8 @@ Users can:
 
 This flexibility supports both deductive validation using established lexical resources and exploratory, abductive topic labeling.
 
+At this link, you can find an archive of 50+ validated dictionaries [https://docs.google.com/spreadsheets/d/1e1ftg-pXv7UkIu_ea-vEUKPyobP4x01dQW6lGZGqIgc/edit?gid=1163768896#gid=1163768896]. Please notice that I don't have the IPR for all these dictionaries. Always refer to the original source reported in the guide sheet.
+
 ### Outputs
 
 ![Figure 2 – Topic Content TasseographeR user interface](figures/figure2_ui.png)
