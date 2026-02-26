@@ -101,9 +101,9 @@ Topic tasseographeR supports both deductive and abductive approaches to topic in
 After qualitative inspection, Topic 10 (labelled as "judicial processes") is hypothesized to exhibit high levels of legal contestation language. To triangulate this interpretation:
 1. Open the Topic Content TasseographeR app:  
    https://fmangio.shinyapps.io/topic_content_score/
-2. Upload `output/td_beta.csv`
+2. Upload `output/td_beta.csv`   [https://drive.google.com/file/d/1_tIjxynlbNH5pVBtdymcqplNJD03hZ8p/view?usp=drive_link]
 3. Select *Uploaded dictionary*
-4. Upload the *Litigious* dictionary [https://drive.google.com/file/d/1cfg_w3USlRFS97wo7XQmYnuzhpmzboAY/view]
+4. Upload the *Litigious* dictionary [https://drive.google.com/file/d/15caZ1BeIIv8n4jfEUaTJm6-GfMGf4iy4/view?usp=drive_link]
 5. Inspect or download the resulting topic-level score plot
    
 Topic 10 displays the highest topic content score, confirming the hypothesis.
@@ -113,7 +113,7 @@ Topic 10 displays the highest topic content score, confirming the hypothesis.
 
 **Religion (Topic 20).**  
 After qualitative inspection, Topic 20 (labelled as "religion") is hypothesized to reflect religious language. To triangulate this interpretation:
-Repeat the steps above using the *Relig* dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
+Repeat the steps above using the *Relig* dictionary [https://drive.google.com/file/d/157KrKhrYFGUcSGIW6x1ZnAVBTMlL83Iu/view?usp=drive_link]
 
 Topic 20 exhibits the highest topic content score.
 
@@ -129,7 +129,7 @@ After qualitative inspection, Topic 5 (labelled as "elections") is hypothesized 
 
 1. Open the Topic Function TasseographeR app:  
    https://fmangio.shinyapps.io/topic_function_score/
-2. Upload `output/ds.csv`
+2. Upload `output/ds.csv` [https://drive.google.com/file/d/1Vdw1g95a6hUsBgkBCRIJDTZivo7BVw2w/view?usp=drive_link]
 3. Select *User-defined dictionary*
 4. Enter the following lemmas: we,us,our,ours, ourselves from the "Our" dictionary [https://inquirer.sites.fas.harvard.edu/homecat.htm]
 5. Inspect or download the resulting topic-level score plot
